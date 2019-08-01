@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F89F21B3BC0B952F9D5B47A /* libPods-PYSideView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 506FB9500922094EFF55684A /* libPods-PYSideView.a */; };
 		C516AEF322F15C36004C25D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C516AEF222F15C36004C25D2 /* AppDelegate.m */; };
 		C516AEF622F15C36004C25D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C516AEF522F15C36004C25D2 /* ViewController.m */; };
 		C516AEF922F15C36004C25D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C516AEF722F15C36004C25D2 /* Main.storyboard */; };
 		C516AEFB22F15C38004C25D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C516AEFA22F15C38004C25D2 /* Assets.xcassets */; };
 		C516AEFE22F15C38004C25D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C516AEFC22F15C38004C25D2 /* LaunchScreen.storyboard */; };
 		C516AF0122F15C38004C25D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C516AF0022F15C38004C25D2 /* main.m */; };
+		C516AF0A22F15CA3004C25D2 /* PYSideView.m in Sources */ = {isa = PBXBuildFile; fileRef = C516AF0922F15CA3004C25D2 /* PYSideView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E03C48E956B871245C02191 /* Pods-PYSideView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYSideView.release.xcconfig"; path = "Target Support Files/Pods-PYSideView/Pods-PYSideView.release.xcconfig"; sourceTree = "<group>"; };
+		506FB9500922094EFF55684A /* libPods-PYSideView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYSideView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C516AEEE22F15C36004C25D2 /* PYSideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYSideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C516AEF122F15C36004C25D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C516AEF222F15C36004C25D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,9 @@
 		C516AEFD22F15C38004C25D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C516AEFF22F15C38004C25D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C516AF0022F15C38004C25D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C516AF0822F15CA3004C25D2 /* PYSideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYSideView.h; sourceTree = "<group>"; };
+		C516AF0922F15CA3004C25D2 /* PYSideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYSideView.m; sourceTree = "<group>"; };
+		D06A4911ED421A6A6F9F33A2 /* Pods-PYSideView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYSideView.debug.xcconfig"; path = "Target Support Files/Pods-PYSideView/Pods-PYSideView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F89F21B3BC0B952F9D5B47A /* libPods-PYSideView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9373686BC433A686263FC8F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				506FB9500922094EFF55684A /* libPods-PYSideView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C516AEE522F15C36004C25D2 = {
 			isa = PBXGroup;
 			children = (
 				C516AEF022F15C36004C25D2 /* PYSideView */,
 				C516AEEF22F15C36004C25D2 /* Products */,
+				E2BA47CC76CA1A623926FB23 /* Pods */,
+				9373686BC433A686263FC8F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +76,7 @@
 		C516AEF022F15C36004C25D2 /* PYSideView */ = {
 			isa = PBXGroup;
 			children = (
+				C516AF0722F15C6A004C25D2 /* New Group */,
 				C516AEF122F15C36004C25D2 /* AppDelegate.h */,
 				C516AEF222F15C36004C25D2 /* AppDelegate.m */,
 				C516AEF422F15C36004C25D2 /* ViewController.h */,
@@ -71,6 +90,25 @@
 			path = PYSideView;
 			sourceTree = "<group>";
 		};
+		C516AF0722F15C6A004C25D2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C516AF0822F15CA3004C25D2 /* PYSideView.h */,
+				C516AF0922F15CA3004C25D2 /* PYSideView.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E2BA47CC76CA1A623926FB23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D06A4911ED421A6A6F9F33A2 /* Pods-PYSideView.debug.xcconfig */,
+				4E03C48E956B871245C02191 /* Pods-PYSideView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +116,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C516AF0422F15C38004C25D2 /* Build configuration list for PBXNativeTarget "PYSideView" */;
 			buildPhases = (
+				58CE1D6A8D8FCEBFC2643870 /* [CP] Check Pods Manifest.lock */,
 				C516AEEA22F15C36004C25D2 /* Sources */,
 				C516AEEB22F15C36004C25D2 /* Frameworks */,
 				C516AEEC22F15C36004C25D2 /* Resources */,
@@ -136,11 +175,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58CE1D6A8D8FCEBFC2643870 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PYSideView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C516AEEA22F15C36004C25D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C516AF0A22F15CA3004C25D2 /* PYSideView.m in Sources */,
 				C516AEF622F15C36004C25D2 /* ViewController.m in Sources */,
 				C516AF0122F15C38004C25D2 /* main.m in Sources */,
 				C516AEF322F15C36004C25D2 /* AppDelegate.m in Sources */,
@@ -283,6 +348,7 @@
 		};
 		C516AF0522F15C38004C25D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06A4911ED421A6A6F9F33A2 /* Pods-PYSideView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +366,7 @@
 		};
 		C516AF0622F15C38004C25D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E03C48E956B871245C02191 /* Pods-PYSideView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
